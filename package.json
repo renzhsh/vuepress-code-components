@@ -15,7 +15,7 @@
         "url": "git+https://github.com/renzhsh/vuepress-code-components.git"
     },
     "main": "index.js",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "browserslist": [
         "> 1%",
         "last 2 versions",
