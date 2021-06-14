@@ -1,0 +1,14 @@
+name: Publish Package
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  publish-to-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish to NPM
+        run:  npm publish || true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM }}

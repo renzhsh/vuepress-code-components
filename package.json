@@ -1,0 +1,26 @@
+{
+    "name": "vuepress-plugin-code-components",
+    "keywords": [
+        "vue",
+        "vuepress",
+        "vuepress-plugin",
+        "markdown"
+    ],
+    "homepage": "https://thinking.renzhansheng.cn/devops/markdown/#fiddle",
+    "bugs": {
+        "url": "https://github.com/renzhsh/vuepress-code-components/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/renzhsh/vuepress-code-components.git"
+    },
+    "main": "index.js",
+    "version": "0.1.0",
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ],
+    "author": "renzhsh",
+    "license": "MIT"
+}
